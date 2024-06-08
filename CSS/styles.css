@@ -1,0 +1,185 @@
+/* propiedades generales  */
+
+body {
+  font-family: "Playfair Display", serif;
+  font-size: small;
+}
+
+header,
+.hero,
+.about,
+.portfolio,
+.contact {
+  background-color: rgb(25, 20, 42);
+  padding: 0 10%;
+}
+
+.info,
+.skills,
+.exterience {
+  background-color: rgb(42, 35, 68);
+  padding: 0 10%;
+}
+
+h1,
+h3,
+p {
+  color: white;
+}
+/* seccion de header: menu de navegacion y logo */
+header {
+  padding-top: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 8vh;
+}
+
+.navbar a {
+  margin: 1vw;
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  font-size: medium;
+}
+
+.btn_nav {
+  background-color: rgb(25, 20, 42);
+  border: 0;
+  color: white;
+  border-radius: 5px;
+  height: 50px;
+}
+.btn_nav:hover {
+  background-color: rgb(213, 33, 58);
+  cursor: pointer;
+}
+
+/* seccion de hero: presentacion y perfil */
+
+.hero {
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* flex-direction: row; */
+  align-items: center;
+}
+.perfil {
+  height: 80%;
+  min-width: 400px;
+  width: 50%;
+}
+
+#presentacion_personal {
+  width: 70%;
+}
+
+.bienvenida {
+  height: 50%;
+  width: 50%;
+}
+
+#saludo {
+  color: white;
+  background-color: rgb(80, 25, 46);
+  height: 8%;
+  width: 20%;
+  border-radius: 5px;
+  padding: 5px;
+  top: 50%;
+  text-align: center;
+}
+
+#saludo:hover {
+  background-color: rgb(213, 33, 58);
+}
+
+/* seccion de informacion */
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 30vh;
+}
+.container,
+.content {
+  height: 20vh;
+}
+
+.container {
+  position: relative;
+}
+
+.content  {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 2px;
+  border-style: dashed;
+  border-color: RGB(213, 33, 58);
+  border-radius: 25% 25% 0% 0% / 0% 25% 25% 25%;
+  height: 150px;
+  width: 170px;
+  font-size: medium;
+}
+.content:hover {
+  border-style: solid;
+}
+
+.icon {
+  height: 40px;
+  border-radius: 5px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+/* seccion de portfolio */
+
+.titulo_port {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 8vh;
+  padding-bottom: 2vh;
+}
+
+.descripcion {
+  width: 50%;
+}
+
+.btn_portf {
+  background-color: rgb(29, 23, 47);
+  border: 0;
+  color: white;
+  border-radius: 5px;
+  height: 50px;
+}
+
+.btn_portf:hover {
+  background-color: rgb(213, 33, 58);
+}
+
+.galeria {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr; 
+  gap: 3em 3em; 
+  grid-template-areas: 
+    ". . ."; 
+}
+.post{
+    height: 40vh;
+    width: 300px;
+}
