@@ -3,7 +3,9 @@
 body {
   font-family: "Playfair Display", serif;
   font-size: small;
+  background-color: rgb(25, 20, 42);
 }
+
 
 header,
 .hero,
@@ -61,7 +63,7 @@ header {
 /* seccion de hero: presentacion y perfil */
 
 .hero {
-  height: 80vh;
+  /* height: 80vh; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -105,7 +107,10 @@ header {
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  height: 30vh;
+  /* height: 30vh; */
+  width: 100;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 .container,
 .content {
@@ -114,6 +119,7 @@ header {
 
 .container {
   position: relative;
+  
 }
 
 .content {
@@ -171,7 +177,8 @@ header {
   border: 0;
   color: white;
   border-radius: 5px;
-  height: 50px;
+  height: 45px;
+  width: 170px;
 }
 
 .btn_portf:hover {
@@ -200,4 +207,82 @@ header {
   width: 100px;
   margin: 5% 45% 5%;
 
+}
+
+/* seccion experiencia */
+.exterience{
+  height: 20vh;
+}
+/* Seccion contacto */
+
+.contact{
+  margin-top: 10VH;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact_info{
+  width: 50%;
+}
+.logo_info{
+  height: 4vh;
+  margin-right: 20px;
+}
+
+.info_titulo{
+ color: rgb(113,111,122);
+margin: 0;
+}
+
+.info_titulo:hover{
+  color: white;
+}
+.info_real{
+  font-size: medium;
+margin: 0;
+}
+
+.tel{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-top: 5vh;
+}
+
+.mensaje{
+  width: 50%;
+}
+
+
+
+form{
+  display: grid; 
+  grid-template-columns: 50% 50%; 
+  grid-template-rows: 50% 50% 50% 50%; 
+  gap: 9% 3%; 
+  grid-template-areas: 
+    ". ."
+    ". ."
+    ". ."
+    ". ."; 
+}
+input{
+  border-radius: 5px;
+  height: 50px;
+  background: rgb(255 122 127 / 0%);
+  border-color: rgba(113,111,122,);
+  border-width: 1px;
+  border-style: solid;
+  padding-left: 5%;
+  font-family: sans-serif;
+  
+}
+
+
+#mensaje_largo{
+  grid-column: 1/3;
+  height: 200%;
+}
+
+.btn_mensaje{
+  margin-top: 80px;
 }
