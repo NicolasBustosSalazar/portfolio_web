@@ -19,12 +19,14 @@
     <header>
       <img class="logo" src="img/olympic-games.svg" />
       <nav class="navbar">
-        <a href=""><button class="btn_nav">Acerca de Mi</button> </a>
-        <a href=""><button class="btn_nav">Servicion</button></a>
-        <a href=""><button class="btn_nav">Portfolio</button></a>
-        <a href=""><button class="btn_nav">Blog</button></a>
-        <a href=""><button class="btn_nav">Contacto</button></a>
-        <a href=""><button class="btn_nav">Descargar CV</button></a>
+        <a href="#About"><button class="btn_nav">Acerca de Mi</button> </a>
+        <a href="#skills"><button class="btn_nav">Skills</button></a>
+        <a href="#portfolio"><button class="btn_nav">Portfolio</button></a>
+
+        <a href="#contact"><button class="btn_nav">Contacto</button></a>
+        <a href="Cv-Bustos-Nicolas_2024.pdf"
+          ><button class="btn_nav">Descargar CV</button></a
+        >
       </nav>
     </header>
     <!-- HERO -->
@@ -80,11 +82,33 @@
         </div>
       </section>
     </section>
-    <section class="about">ABOUT</section>
-    <section class="skills">SKILLS</section>
+    <!-- ABOUT ME -->
+    <section id="About" class="about">
+      <img class="logo_UTN" src="img/UTNlogo.svg" alt="" />
+      <section class="about_contenido">
+        <h1>Acerca de Mi</h1>
+        <p>
+          Actualmente soy un estudiante de Ingenieria en sistemas de
+          informacion. Me especializo en diseño de aplicaciones para automatizar
+          procesos de mercado y buscar soluciones web a empresas que quieran
+          emprender en el espacio digital.
+        </p>
+      </section>
+    </section>
+    <!-- SKILLS -->
+    <section id="skills" class="skills">
+      <h1>SKILLS</h1>
+      <section class="lenguajes">
+        <img src="img/icons8-css3-96.png" alt="" />
+        <img src="img/icons8-html-5-96.svg" alt="" />
+        <img src="img/icons8-js-96.svg" alt="" />
+        <img src="img/icons8-figura.svg" alt="" />
+        <img src="img/icons8-apache-netbeans.svg" alt="" />
+      </section>
+    </section>
 
     <!-- PORTFOLIO -->
-    <section class="portfolio">
+    <section id="portfolio" class="portfolio">
       <section class="titulo_port">
         <div class="descripcion">
           <h1>Portfolio</h1>
@@ -113,10 +137,9 @@
       </section>
       <button class="btn_portf_todos">Ver Todos</button>
     </section>
-    <!-- SECCION EXPERIENCIA -->
-    <section class="exterience">EXPERIENCIA</section>
+
     <!-- SECCION CONTACTO -->
-    <section class="contact">
+    <section id="contact" class="contact">
       <section class="contact_info">
         <h1 class="contacto_titulo">Contacto</h1>
         <p>
@@ -163,11 +186,24 @@
       <section class="mensaje">
         <h1 class="contacto_titulo">Deja un Mensaje</h1>
         <form>
-          <input type="text" id="fname" name="fname" placeholder="Nombre">
-          <input type="email" id="email" name="email" placeholder="Email">
-          <input type="tel" id="phone" name="phone" placeholder="Telefono#" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
-           <input type="number" id="budget" name="budget" placeholder="Presupuesto" min="10" max="5000">
-          <input type="text" id="mensaje_largo" placeholder="Mensaje"/>
+          <input type="text" id="fname" name="fname" placeholder="Nombre" />
+          <input type="email" id="email" name="email" placeholder="Email" />
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Telefono#"
+            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+          />
+          <input
+            type="number"
+            id="budget"
+            name="budget"
+            placeholder="Presupuesto"
+            min="10"
+            max="5000"
+          />
+          <input type="text" id="mensaje_largo" placeholder="Mensaje" />
         </form>
       </section>
       <button class="btn_portf_todos btn_mensaje">Enviar</button>
