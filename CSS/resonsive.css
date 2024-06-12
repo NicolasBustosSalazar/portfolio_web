@@ -1,4 +1,4 @@
-@media(max-width: 500px){
+/* @media(max-width: 500px){
    
     .navbar a{
         display: none;
@@ -15,19 +15,74 @@
         align-items: center;
         justify-content: center;
     }
+} */
+
+@media (max-width: 320px) {
 }
 
+@media (max-width: 480px) {
+}
 
-@media(max-width: 320px){}
+@media (max-width: 768px) {
+  .navbar a {
+    display: none;
+  }
+  .miclase {
+    display: block;
+  }
 
-@media(max-width: 480px){}
+  #saludo {
+    width: 30%;
+  }
 
-@media(max-width: 768px){}
+  .logo_UTN {
+    display: none;
+  }
+  .perfil {
+    display: none;
+  }
 
-@media(max-width: 1024px){}
+  .bienvenida {
+    width: 80vw;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-@media(max-width: 1280px){}
+  
 
-@media(max-width: 1440px){}
+  .decoracion_hero {
+    display: none;
+  }
+}
 
-@media(max-width: 1920px){}
+@media (max-width: 1024px) {
+  .perfil {
+    width: 70%;
+  }
+
+  .decoracion {
+    top: 70%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .perfil {
+    width: 40vh;
+  }
+
+  .decoracion {
+    top: 70%;
+  }
+}
+
+@media (max-width: 1440px) {
+  .perfil {
+    width: 40vh;
+  }
+}
+
+@media (max-width: 1920px) {
+}
