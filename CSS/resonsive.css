@@ -18,28 +18,25 @@
 } */
 
 @media (max-width: 320px) {
-
-.bienvenida{
-    
-}
-#presentacion_personal{
+  .bienvenida {
+  }
+  #presentacion_personal {
     width: 100%;
-}
-.about_contenido{
-    padding:0 35px;
-}
-.titulo_port{
+  }
+  .about_contenido {
+    padding: 0 35px;
+  }
+  .titulo_port {
     width: 100%;
-}
+  }
 
-.descripcion p{
+  .descripcion p {
     width: 100%;
-}
+  }
 
-.logo{
+  .logo {
     width: 120px;
-}
-
+  }
 }
 
 @media (max-width: 480px) {
@@ -135,11 +132,12 @@
     align-items: center;
   }
 
-  .decoracion_hero, .decoracion_about {
+  .decoracion_hero,
+  .decoracion_about {
     display: none;
   }
 
-  .decoracion{
+  .decoracion {
     display: none;
   }
 
@@ -176,24 +174,22 @@
 
 @media (max-width: 1024px) {
   .perfil {
-    width:40%;
+    width: 40%;
   }
 
   .decoracion {
     top: 70%;
   }
-  .logo_UTN{
+  .logo_UTN {
     display: none;
   }
-   #saludo{
+  #saludo {
     width: 180px;
   }
-/* 
+  /* 
   .btn_portf_todos, .btn_mensaje{
     width: 160px; 
   }*/
-
-
 }
 
 @media (max-width: 1280px) {
@@ -205,10 +201,9 @@
     top: 70%;
   }
 
-  #saludo{
+  #saludo {
     width: 180px;
   }
-  
 }
 
 @media (max-width: 1440px) {
