@@ -18,6 +18,28 @@
 } */
 
 @media (max-width: 320px) {
+
+.bienvenida{
+    
+}
+#presentacion_personal{
+    width: 100%;
+}
+.about_contenido{
+    padding:0 35px;
+}
+.titulo_port{
+    width: 100%;
+}
+
+.descripcion p{
+    width: 100%;
+}
+
+.logo{
+    width: 120px;
+}
+
 }
 
 @media (max-width: 480px) {
@@ -154,12 +176,24 @@
 
 @media (max-width: 1024px) {
   .perfil {
-    width: 70%;
+    width:40%;
   }
 
   .decoracion {
     top: 70%;
   }
+  .logo_UTN{
+    display: none;
+  }
+   #saludo{
+    width: 180px;
+  }
+/* 
+  .btn_portf_todos, .btn_mensaje{
+    width: 160px; 
+  }*/
+
+
 }
 
 @media (max-width: 1280px) {
@@ -171,6 +205,9 @@
     top: 70%;
   }
 
+  #saludo{
+    width: 180px;
+  }
   
 }
 
