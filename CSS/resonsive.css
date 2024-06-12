@@ -21,12 +21,77 @@
 }
 
 @media (max-width: 480px) {
+  /* HERO */
+  .hero {
+    padding: 0;
+  }
+  .bienvenida {
+    width: 100%;
+    padding-left: 0px;
+  }
+  /* CONTACTO */
+  .contact {
+    /* margin: 20px; */
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .contact_info {
+    width: 80%;
+  }
+  .mensaje {
+    width: 80%;
+    height: 40vh;
+  }
+  /* ABOUT */
+  .about {
+    padding: 0px;
+  }
+  .about_contenido {
+    width: 100%;
+  }
+
+  /* PORFOLIO */
+  .portfolio {
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .titulo_port {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .menu_port {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .btn_portf {
+    width: 150px;
+    height: 70px;
+  }
+
+  .galeria {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .galeria a {
+    margin-top: 20%;
+  }
 }
 
 @media (max-width: 768px) {
+  /* HEADER */
   .navbar a {
     display: none;
   }
+  /* HERO */
   .miclase {
     display: block;
   }
@@ -35,9 +100,6 @@
     width: 30%;
   }
 
-  .logo_UTN {
-    display: none;
-  }
   .perfil {
     display: none;
   }
@@ -51,10 +113,42 @@
     align-items: center;
   }
 
-  
-
-  .decoracion_hero {
+  .decoracion_hero, .decoracion_about {
     display: none;
+  }
+
+  .decoracion{
+    display: none;
+  }
+
+  /* ABOUT */
+  .logo_UTN {
+    display: none;
+  }
+  .about {
+    padding: 0px;
+  }
+  .about_contenido {
+    width: 100%;
+  }
+
+  /* PORTFOLIO */
+
+  .titulo_port {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .descripcion {
+    text-align: center;
+  }
+
+  /* CONTACTO */
+  .btn_mensaje {
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    width: 90px;
   }
 }
 
@@ -76,6 +170,8 @@
   .decoracion {
     top: 70%;
   }
+
+  
 }
 
 @media (max-width: 1440px) {

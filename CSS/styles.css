@@ -196,19 +196,20 @@ header {
   /* background: rgb(115, 8, 129); */
   
   /* height: 30vh; */
-  padding: 5vh;
-  transition: background 1s;
-  
-}
-.about_contenido:hover{
-background: linear-gradient(
+  background: linear-gradient(
     174deg,
     rgba(115, 8, 129, 0.536647935541404) 0%,
     rgba(29, 23, 47, 1) 48%,
     rgba(115, 8, 129, 0.5142389719559699) 100%
   );
+  padding: 5vh;
+  transition: background 1s;
   
 }
+/* .about_contenido:hover{
+
+  
+} */
 
 .decoracion_about {
   position: absolute;
